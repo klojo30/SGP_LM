@@ -6,5 +6,6 @@ Progetto 24/25: Persistenza di un servizio di prenotazione viaggi
 # DBMS 
   è stato scelto, ed usato, PostgreSQL
 # CONTENUTI
+Nel branch "sql":
   - DUMP_solo_schema_161125.sql --> contenente DDL delle tabelle create, FKs, Constraints
   - DUMP_solo_dati_161125.sql ---> contenente tutte le insert per popolare le tabelle con dati di test
