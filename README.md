@@ -6,6 +6,7 @@ Progetto 24/25: Persistenza di un servizio di prenotazione viaggi
 # DBMS 
   è stato scelto, ed usato, PostgreSQL
 # CONTENUTI
+presenti nel branch sql
   - DUMP_completo_161125.sql ---> contenente schema e tutte le insert per popolare le tabelle con dati di test
     
 Eventualmente, il dump è stato diviso in:
