@@ -7,10 +7,10 @@ Progetto 24/25: Persistenza di un servizio di prenotazione viaggi
   è stato scelto, ed usato, PostgreSQL
 # CONTENUTI
 presenti nel branch sql
-  - DUMP_completo_161125.sql ---> contenente schema e tutte le insert per popolare le tabelle con dati di test
+  - DUMP_completo_181125.sql ---> contenente schema e tutte le insert per popolare le tabelle con dati di test
     
 Eventualmente, il dump è stato diviso in:
-  - DUMP_solo_schema_161125.sql --> contenente solo DDL delle tabelle create, FKs, Constraints
-  - DUMP_solo_dati_161125.sql ---> contenente solo le insert per popolare le tabelle con i dati di test
+  - DUMP_solo_schema_181125.sql --> contenente solo DDL delle tabelle create, FKs, Constraints
+  - DUMP_solo_dati_181125.sql ---> contenente solo le insert per popolare le tabelle con i dati di test
 # COMMENTI
   Il progetto è ancora in fase di sviluppo. Quanto caricato è una prima versione per la Pre Valutazione del 19 Novembre e non è da considerarsi come definitivo.
