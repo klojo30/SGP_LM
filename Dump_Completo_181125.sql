@@ -1591,7 +1591,7 @@ COMMENT ON CONSTRAINT check_coordinate ON public."STAZIONI" IS 'per assicurarmi 
 --
 
 ALTER TABLE public."TARIFFE"
-    ADD CONSTRAINT check_sconto CHECK (((sconto_percentuale < (100)::numeric) OR (sconto_percentuale > (0)::numeric))) NOT VALID;
+    ADD CONSTRAINT check_sconto CHECK (((sconto_percentuale < (100)::numeric) AND (sconto_percentuale > (0)::numeric))) NOT VALID;
 
 
 --
