@@ -7,10 +7,16 @@ Progetto 24/25: Persistenza di un servizio di prenotazione viaggi
   è stato scelto, ed usato, PostgreSQL
 # CONTENUTI
 presenti nel branch sql
-  - DUMP_completo_181125.sql ---> contenente schema e tutte le insert per popolare le tabelle con dati di test
+  - DUMP_completo_181225.sql ---> contenente schema e tutte le insert per popolare le tabelle con dati di test
     
 Eventualmente, il dump è stato diviso in:
-  - DUMP_solo_schema_181125.sql --> contenente solo DDL delle tabelle create, FKs, Constraints
-  - DUMP_solo_dati_181125.sql ---> contenente solo le insert per popolare le tabelle con i dati di test
+  - DUMP_solo_schema_181225.sql --> contenente solo DDL delle tabelle create, FKs, Constraints
+  - DUMP_solo_dati_181225.sql ---> contenente solo le insert per popolare le tabelle con i dati di test
+
+Inoltre, sono presenti i seguenti file:
+  - Query_esempio.sql --> contenente 5 query di esempio
+  - Viste_esempio.sql --> contenente 3 viste di esempio
+  - Tableu_esempi_grafici.twb --> file Tableau contenente i grafici draft popolati dalle viste
+
 # COMMENTI
-  Il progetto è ancora in fase di sviluppo. Quanto caricato è una prima versione per la Pre Valutazione del 19 Novembre e non è da considerarsi come definitivo.
+  Per poter usufruire di tutte le funzionalità di ricerca geografica e definizione di colonne di tipo geography, si rende necessario installare l'estensione PostGIS: https://postgis.net/
